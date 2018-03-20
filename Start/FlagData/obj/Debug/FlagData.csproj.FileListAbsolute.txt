@@ -1,0 +1,5 @@
+C:\Users\Privat\Downloads\XAM280-master\Exercise 1\Start\FlagData\bin\Debug\FlagData.dll
+C:\Users\Privat\Downloads\XAM280-master\Exercise 1\Start\FlagData\bin\Debug\FlagData.pdb
+C:\Users\Privat\Downloads\XAM280-master\Exercise 1\Start\FlagData\obj\Debug\FlagData.csproj.CoreCompileInputs.cache
+C:\Users\Privat\Downloads\XAM280-master\Exercise 1\Start\FlagData\obj\Debug\FlagData.dll
+C:\Users\Privat\Downloads\XAM280-master\Exercise 1\Start\FlagData\obj\Debug\FlagData.pdb

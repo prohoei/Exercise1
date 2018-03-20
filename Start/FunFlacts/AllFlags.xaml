@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            Title="Fun with Flags"
+            x:Class="FunFlacts.AllFlags">
+
+    <!--<ListView ItemsSource="{Binding Flags}"/>-->
+
+    <ListView
+      ItemsSource="{Binding Flags}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell DetailColor="Gray"
+                           ImageSource="{Binding ImageUrl, Mode=OneWay, Converter={StaticResource irConverter}}"
+                           Text="{Binding Country}"
+                           Detail="{Binding DateAdopted, StringFormat='Adopted on {0:d}'}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>
